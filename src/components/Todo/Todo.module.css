@@ -54,9 +54,9 @@
 .buttons .complite {
     padding: 8px 10px;
     box-sizing: border-box;
-    background: rgba(49, 110, 231, 0.9);
+    border: 2px solid rgba(49, 110, 231, 0.6);
     border-radius: 5px;
-    color: #00143b;
+    color: #000000;
     font-size: 16px;
     transition: .2s;
 }
@@ -64,19 +64,21 @@
 .buttons .delete {
     padding: 8px 10px;
     box-sizing: border-box;
-    background: rgba(236, 50, 50, 0.9);
+    border: 2px solid rgba(236, 50, 50, 0.6);
     border-radius: 5px;
-    color: #490000;
+    color: #000000;
     font-size: 16px;
     transition: .2s;
 }
 
 .buttons .complite:hover {
-    background-color: rgba(0, 87, 255, 0.5);
+    background-color: rgba(49, 110, 231, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0);
     cursor: pointer;
 }
 
 .buttons .delete:hover {
-    background: rgba(255, 0, 0, 0.5);
+    background: rgba(236, 50, 50, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0);
     cursor: pointer;
 }
