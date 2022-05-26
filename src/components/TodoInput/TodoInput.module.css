@@ -1,0 +1,37 @@
+.add-todo {
+    margin-top: 50px;
+}
+
+.input-wraper {
+    width: 30%;
+}
+
+.input-wraper input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Lab Grotesque';
+    padding: 10px 15px;
+}
+
+.input-wraper button {
+    width: 100%;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Lab Grotesque';
+    padding: 10px 0;
+    transition: .2s;
+}
+
+.input-wraper button:hover {
+    background-color: rgb(29, 29, 29);
+    cursor: pointer;
+}

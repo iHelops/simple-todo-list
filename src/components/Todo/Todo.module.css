@@ -1,0 +1,82 @@
+.cards {
+    margin: 0;
+}
+
+.cards > div {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cards-item {
+    width: calc(50% - 15px);
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.cards-item h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards-item p {
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons .in-process {
+    padding: 8px 10px;
+    box-sizing: border-box;
+    background: rgba(0, 255, 10, 0.3);
+    border-radius: 5px;
+    color: #107200;
+    font-size: 16px;
+}
+
+.buttons .complited {
+    padding: 8px 10px;
+    box-sizing: border-box;
+    background: rgba(0, 87, 255, 0.3);
+    border-radius: 5px;
+    color: #002C82;
+    font-size: 16px;
+}
+
+.buttons .complite {
+    padding: 8px 10px;
+    box-sizing: border-box;
+    background: rgba(49, 110, 231, 0.9);
+    border-radius: 5px;
+    color: #00143b;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.buttons .delete {
+    padding: 8px 10px;
+    box-sizing: border-box;
+    background: rgba(236, 50, 50, 0.9);
+    border-radius: 5px;
+    color: #490000;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.buttons .complite:hover {
+    background-color: rgba(0, 87, 255, 0.5);
+    cursor: pointer;
+}
+
+.buttons .delete:hover {
+    background: rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+}
